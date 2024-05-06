@@ -29,4 +29,10 @@ public class Znahar implements Celitel{
         System.out.println("opridel leczenie");
         leczenies.forEach(leczenie -> leczenie.primenit(patient));
     }
+
+    @Override
+    public String myType() {
+        // "method of leczenia"
+        return Celitel.NAROD;
+    }
 }
