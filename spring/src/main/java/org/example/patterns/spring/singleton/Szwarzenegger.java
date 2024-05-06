@@ -23,7 +23,7 @@ public class Szwarzenegger {
     //Example Lazy with Lombok:
     //RequiredArgsConstructor(onConstructor_ = { @Lazy } )
 
-    @Scheduled(fixedDelay = 500)
+//    @Scheduled(fixedDelay = 500)
     public void killEnemies(){
         if(!veryTired()){
             kickWithLog();
